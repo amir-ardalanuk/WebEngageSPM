@@ -19,7 +19,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WebEngage",
-            url:"https://github.com/amir-ardalanuk/WebEngageSPM/raw/master/WebEngage.xcframework.zip",
+            url:"https://github.com/amir-ardalanuk/WebEngageSPMFramework/raw/master/WebEngage.xcframework.zip",
             checksum: "4ce62365b6146c1269f1abbcc2fc861ed793335f655f4eadd7cbd22bf283abc4"
         )
     ]

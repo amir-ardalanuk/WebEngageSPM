@@ -15,7 +15,9 @@ let package = Package(
     targets: [
         .target(
             name: "WebengageSPM",
-            dependencies: [.target(name: "WebEngage", condition: .when(platforms: [.iOS]))]
+            dependencies: [.target(name: "WebEngage", condition: .when(platforms: [.iOS]))],
+            publicHeadersPath: "include",
+            cSettings: [.headerSearchPath(".")]
         ),
         .binaryTarget(
             name: "WebEngage",
